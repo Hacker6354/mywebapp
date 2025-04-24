@@ -1526,7 +1526,7 @@ with col2:
             else:
                 st.info("Complete your travel preferences and click 'Generate My Trip Plan' to create your personalized guide.")
             
-            st.markdown("</div>", unsafe_allow_html=True)
+            # st.markdown("</div>", unsafe_allow_html=True)
     else:
         # Show a welcome message when no country is selected
         st.markdown("""
